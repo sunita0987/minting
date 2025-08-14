@@ -5,6 +5,10 @@ import markets from "../assets/images/digital.png";
 import merch from "../assets/images/merch.png";
 import charity from "../assets/images/charity.png";
 
+import designer from "../assets/images/designer.png";
+import artist from "../assets/images/artist.png";
+import developer from "../assets/images/developer.png";
+
 export const FEATURE_DATA = [
   {
     title: "ART COLLECTION",
@@ -53,5 +57,46 @@ export const ROADMAP_DATA = [
     quarter: "Q-2, 2022",
     text: "Blandit sed penatibus elit tortor fermentum velit donec. Id eleifend volutpat dolor netus auctor at. Volutpat sed auctor non in commodo, felis viverra risus tristique.",
     side: "right",
+  },
+];
+
+export const FAQ_DATA = [
+  {
+    question: "What's the blockchain the buddybullies call home?",
+    answer:
+      "Hac varius turpis sit pulvinar lorem magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non, integer. Non.",
+  },
+  {
+    question: "What's the blockchain the buddybullies call home?",
+    answer:
+      "Hac varius turpis sit pulvinar lorem magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non, integer. Non.",
+  },
+  {
+    question: "What's the blockchain the buddybullies call home?",
+    answer:
+      "Hac varius turpis sit pulvinar lorem magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non, integer. Non.",
+  },
+  {
+    question: "What's the blockchain the buddybullies call home?",
+    answer:
+      "Hac varius turpis sit pulvinar lorem magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non, integer. Non.",
+  },
+];
+
+export  const TEAM_MEMBERS = [
+  {
+    name: "Prime Bullister",
+    role: "Product Designer",
+    image: designer,
+  },
+  {
+    name: "Solvador Bulli",
+    role: "Artist",
+    image: artist,
+  },
+  {
+    name: "Meta Bully",
+    role: "Developer",
+    image: developer,
   },
 ];
